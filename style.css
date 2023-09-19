@@ -1,0 +1,99 @@
+body
+{
+	background-image: url(bggb.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	margin:0;
+	padding: 0;
+}
+.first
+{
+	padding-left: 30px;
+	background-image:linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(oval.jpg);
+	height: 100vh;
+	background-size: cover;
+	background-position: center;
+}
+
+.main
+{
+	max-width: 1200px;
+	margin:auto;
+}
+.pndq
+{
+	font-size: 45px;
+	font-weight: 800;
+	font-family: algerian;
+ 	margin-top: -7%;
+ 	margin-bottom: -0.3%;
+ 	color:#006f3b;
+ 	-webkit-text-stroke:0.5px red;
+}
+.box
+{
+	border-radius: 10px;
+	width: 330px;
+	padding: 40px;
+	position: absolute;
+	top:65%;
+	left:50%;
+	transform: translate(-50%, -50%);
+	background-image:url(bgsign.jpg);
+	background-size: cover;
+	text-align: center;
+	transition: 0.7s ease;
+	color: black;
+	box-shadow:  3px 3px green,  7px 7px white,  10px 10px red;
+}
+.box h1
+{
+	color: solid #000301;
+	font-family: Algerian;
+	text-transform: uppercase;
+	font-weight: 500;
+	opacity: 0.5;
+}
+.box input[type = "text"], .box input[type="password"]
+{
+	border:0;
+	font-size: 20px;
+	background:none;
+	display: block;
+	margin:20px auto;
+	text-align: center;
+	border: 1px solid red;
+	padding: 14px 10px;
+	width: 200px;
+	outline: none;
+	color: black;
+	border-radius: 24px;
+	transition: 0.25s;
+	box-shadow: 2px 2px red, 3px 3px white;
+}
+.box input[type = "text"]:focus, .box input[type="password"]:focus
+{
+	width: 280px;
+	border-color: #2ecc71;
+}
+.box input[type = "Submit"]
+{
+	border:0;
+	font-size: 20px;
+	background:none;
+	display: block;
+	margin:20px auto;
+	text-align: center;
+	border: 2px solid #2ecc71;
+	padding: 14px 40px;
+	outline: none;
+	color: black;
+	border-radius: 24px;
+	transition: 0.25s;
+	cursor: pointer;
+}
+.box input[type = "Submit"]:hover
+{
+	background: red;
+}
+	
